@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-VE">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos para documentar</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <main>
         <h3>Estilos para documentar</h3>
+
+        <div class="productos" id="productos-contenedor">
+            <div class="productos__item productos__item--seleccionado"></div>
+            <div class="productos__item"></div>
+            <div class="productos__item"></div>
+            <div class="productos__item"></div>
+        </div>
+
+        <div id="seleccionado"></div>
+
+        <hr>
+
+        <button id="eliminar" data-id="" class="eliminar">Eliminar producto</button>
     </main>
+
+    <script src="app/main.js" type="module"></script>
 </body>
 
 </html>
