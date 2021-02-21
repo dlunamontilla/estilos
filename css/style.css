@@ -33,4 +33,19 @@ hr {
   margin: 20px auto;
 }
 
+.productos {
+  padding: 10px;
+  border: 1px solid;
+}
+.productos__item {
+  --diametro: 200px;
+  width: var(--diametro);
+  height: var(--diametro);
+  background-color: #f2f2f2;
+}
+.productos__item--seleccionado {
+  background-color: rgba(0, 128, 212, 0.05);
+  color: #0061a1;
+}
+
 /*# sourceMappingURL=style.css.map */
