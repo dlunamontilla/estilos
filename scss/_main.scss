@@ -1,0 +1,18 @@
+.productos {
+    padding: 10px;
+    border: 1px solid;
+
+    &__item {
+        --diametro: 200px;
+
+        width: var(--diametro);
+        height: var(--diametro);
+
+        background-color: darken(white, 5);
+
+        &--seleccionado {
+            background-color: rgba($base, 0.05);
+            color: darken($base, 10);
+        }
+    }
+}
