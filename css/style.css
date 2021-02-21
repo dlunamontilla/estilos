@@ -38,7 +38,7 @@ hr {
   border: 1px solid;
 }
 .productos__item {
-  --diametro: 200px;
+  --diametro: 100px;
   width: var(--diametro);
   height: var(--diametro);
   background-color: #f2f2f2;
